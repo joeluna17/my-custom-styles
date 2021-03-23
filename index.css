@@ -1,8 +1,8 @@
 :root{
     --primary-color: #2e82de;
     --secondary-color: #373831;
+    --tertiary-color: tomato;
     --global-bg-color: #e3e3e3;
-
 }
 
 body{
@@ -22,6 +22,15 @@ body{
 
 .custom-btn-secondary{
     background-color: var(--secondary-color);
+    border-radius: 12px;
+    border:none;
+    width:150px;
+    height:45px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
+    border: 1px soilid #fff;
+}
+.custom-btn-tertiary{
+    background-color: var(--tertiary-color);
     border-radius: 12px;
     border:none;
     width:150px;
