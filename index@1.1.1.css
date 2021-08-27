@@ -1,12 +1,12 @@
-:root{
-    --primary-color: #2e82de;
-    --secondary-color: #373831;
-    --tertiary-color: tomato;
-    --global-bg-color: #e3e3e3;
-    --global-font-white: #fff;
+:root {
+  --primary-color: #2e82de;
+  --secondary-color: #373831;
+  --tertiary-color: tomato;
+  --global-bg-color: #e3e3e3;
+  --global-font-white: #fff;
 }
 
-body{
+/* body{
     width:80%;
     background-color: var(--global-bg-color);
 }
@@ -42,4 +42,15 @@ body{
     border: 1px soilid #fff;
     color: var(--global-font-white);
 }
+ */
 
+.paymentForm {
+  border: 8px solid crimson;
+}
+
+.textBox {
+  border: 8px solid cornflowerblue;
+}
+.label {
+  color: lime;
+}
