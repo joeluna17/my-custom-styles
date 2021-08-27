@@ -44,13 +44,55 @@
 }
  */
 
-.paymentForm {
-  border: 8px solid crimson;
+.body,
+html {
+  padding: 0 2%;
 }
 
 .textBox {
-  border: 8px solid cornflowerblue;
+  height: 45px;
+  margin: 2%;
 }
+
+.fieldSet {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  border: none;
+}
+
+.fieldSet select.dropDown.month,
+.fieldSet select.dropDown.year {
+  height: 45px;
+}
+
+.fieldSet .formRow {
+  margin: 10px;
+  width: 43%;
+}
+
 .label {
-  color: lime;
+  color: #0f4b8f;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.submitButtonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button#submitButton {
+  margin-left: 2px;
+  width: 240px;
+  height: 55px;
+  border-radius: 65px;
+  background-color: #023b7e;
+  color: #fff;
+  font-size: 19px;
+}
+
+.legend {
+  display: none;
 }
