@@ -67,9 +67,14 @@ html {
   height: 45px;
 }
 
-.fieldSet .formRow {
+#paymentForm .fieldSet .formRow {
   margin: 10px;
   width: 43%;
+}
+
+#threeDSPage .fieldSet .formRow {
+  margin: 10px;
+  width: 100%;
 }
 
 .label {
@@ -84,6 +89,15 @@ html {
 }
 
 button#submitButton {
+  margin-left: 2px;
+  width: 240px;
+  height: 55px;
+  border-radius: 65px;
+  background-color: #023b7e;
+  color: #fff;
+  font-size: 19px;
+}
+button#cancelButton {
   margin-left: 2px;
   width: 240px;
   height: 55px;
